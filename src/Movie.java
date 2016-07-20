@@ -8,7 +8,7 @@ public class Movie {
 
     public Movie(String _title, int code) {
         this._title = _title;
-        _priceCode = code;
+        setPriceCode(code);
     }
 
     public int getPriceCode() {
